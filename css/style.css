@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: Signika, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* header section */
+header {
+  background: blue;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-right: 70px;
+  display: inline;
+  margin-top: 14px;
+}
+
+/* hero */
+#hero {
+  background: url("../img/new.jpg");
+  min-height: 400px;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+#hero h1{
+    font-size: 57px;
+    margin-top: 100px;
+}
+
+#hero p {
+    font-size: 22px;
+}
