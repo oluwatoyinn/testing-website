@@ -14,11 +14,20 @@ body {
   overflow: hidden;
 }
 
+.btn{
+    height: 35px;
+    background: #FF0099;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px solid #FF0099;
+}
+
 /* header section */
 header {
-  background: blue;
+  background: #0099CC;
   color: white;
-  padding-top: 30px;
+  padding-top: 10px;
   min-height: 70px;
 }
 
@@ -41,7 +50,7 @@ header ul {
 header ul li {
   margin-right: 70px;
   display: inline;
-  margin-top: 14px;
+  margin-top: 20px;
 }
 
 /* hero */
@@ -60,4 +69,57 @@ header ul li {
 
 #hero p {
     font-size: 22px;
+}
+
+/* subscribe */
+
+.subscribe{
+    background: #0099CC;
+    padding: 15px;
+    color: #fff;
+}
+
+.subscribe .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe .container form{
+    padding: 22px;
+}
+
+.subscribe .container input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border: none;
+    border: 2px solid white
+}
+
+/* display */
+
+#wrapper{
+    margin-top: 80px;
+    height: 40vh;
+}
+
+#wrapper .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper .container .box{
+    text-align: center;
+    padding: 10px;
+}
+
+#wrapper .container .box img{
+    width: 100px;
+}
+
+footer{
+    padding: 20px;
+    background: #0099CC;
+    color: #fff;
+    text-align: center;
 }
